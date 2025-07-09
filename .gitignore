@@ -1,0 +1,60 @@
+# === Node Modules ===
+node_modules/
+
+# === Build output ===
+# DO NOT ignore `build/` or `dist/` if you're using GitHub Pages to host production build
+# If you're using Vite:
+# !dist/
+# If you're using CRA:
+# !build/
+
+# Ignore everything inside build/dist *except* the folder itself
+build/*
+!build/.gitkeep
+
+dist/*
+!dist/.gitkeep
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Dependency directories ===
+jspm_packages/
+
+# === Environment Files ===
+.env
+.env.*.local
+.env.local
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
+# === IDE/Editor Files ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# === Coverage reports ===
+coverage/
+*.lcov
+
+# === Misc ===
+*.tgz
+.cache/
+.parcel-cache/
+.eslintcache
+
+# === Optional: lock files (uncomment if you don't want them in repo) ===
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# === Optional: Mac system files ===
+*.swp
